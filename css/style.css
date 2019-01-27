@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.maincontain {
+	height: 100%;
+	width: 100%;
+	background-color: hotpink;
+}
+.secondcontain {
+	height: 500px;
+	width: 900px; 
+	background-color: red;
+	margin: auto;
+	position: relative;
+	top: 80px;
+}
+
+.mobile1 {
+	height: 500px;
+	width: 270px;
+	background-image:url(../image/mobile1.png);
+	background-size: cover;
+	float: left;
+	animation-name: monile1;
+	animation-duration: 2s;
+	
+}
+
+
+.mobile2 {
+	height: 500px;
+	width: 270px;
+	background-image: url(../image/mobile2.png);
+	background-size: cover;
+	float: left;
+	animation-name: monile2;
+	animation-duration: 2s;
+	
+	
+}
+
+.mobile3 {
+	height: 500px;
+	width: 270px;
+	background-image: url(../image/mobile3.png);
+	background-size: cover;
+	float: left;	
+	animation-name: monile3;
+	animation-duration: 2s;
+	
+
+}
+@keyframes mobile1 mobile2 mobile3{
+    from{
+		
+	}
+	to{
+		
+	}
+}
+
