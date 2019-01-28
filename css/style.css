@@ -3,66 +3,66 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
+
 .maincontain {
 	height: 100%;
 	width: 100%;
 	background-color: hotpink;
 }
+
 .secondcontain {
 	height: 500px;
-	width: 900px; 
-	background-color: red;
+	width: 900px;
 	margin: auto;
 	position: relative;
-	top: 80px;
+	top: 60px;
+
 }
 
 .mobile1 {
 	height: 500px;
 	width: 270px;
-	background-image:url(../image/mobile1.png);
-	background-size: cover;
 	float: left;
-	animation-name: monile1;
+	animation-name: mobile;
 	animation-duration: 2s;
-	
+	transform: rotate(-90deg) translate(-71px, 695px);
+	animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
-
 
 .mobile2 {
 	height: 500px;
 	width: 270px;
-	background-image: url(../image/mobile2.png);
-	background-size: cover;
 	float: left;
-	animation-name: monile2;
+	animation-name: mobile;
 	animation-duration: 2s;
-	
-	
+	transform: rotate(-90deg) translate(10px, 565px);
+	animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .mobile3 {
 	height: 500px;
 	width: 270px;
-	background-image: url(../image/mobile3.png);
-	background-size: cover;
-	float: left;	
-	animation-name: monile3;
+	float: left;
+	animation-name: mobile;
 	animation-duration: 2s;
-	
-
-}
-@keyframes mobile1 mobile2 mobile3{
-    from{
-		
-	}
-	to{
-		
-	}
+	transform: rotate(-90deg) translate(89px,465px);
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
 
+@keyframes mobile {
+	from {}
+	to {
+		transform: translate(0%, 0%) rotate(0deg);
+	}
+}
