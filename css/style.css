@@ -10,12 +10,27 @@ body {
 	width: 100%;
 	margin: 0;
 	overflow: hidden;
+	background-color: hotpink;
+
 }
+
+.info {
+	width: 70%;
+	margin: auto;
+	font-family: verdana;
+}
+
+.info h1,p{
+	color: #fff;
+	line-height: 1.7;
+	text-align: center;
+}
+
+
 
 .maincontain {
 	height: 100%;
 	width: 100%;
-	background-color: hotpink;
 }
 
 .secondcontain {
@@ -35,7 +50,7 @@ body {
 	animation-duration: 2s;
 	transform: rotate(-90deg) translate(-71px, 695px);
 	animation-direction: alternate;
-    animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
 }
 
 .mobile2 {
@@ -46,7 +61,7 @@ body {
 	animation-duration: 2s;
 	transform: rotate(-90deg) translate(10px, 565px);
 	animation-direction: alternate;
-    animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
 }
 
 .mobile3 {
@@ -55,7 +70,7 @@ body {
 	float: left;
 	animation-name: mobile;
 	animation-duration: 2s;
-	transform: rotate(-90deg) translate(89px,465px);
+	transform: rotate(-90deg) translate(89px, 465px);
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 }
